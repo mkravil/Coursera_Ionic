@@ -15,13 +15,16 @@ import { LeaderProvider } from '../providers/leader/leader';
 import { PromotionProvider } from '../providers/promotion/promotion';
 import { ProcessHttpmsgProvider } from '../providers/process-httpmsg/process-httpmsg';
 
+import { DishdetailPage } from '../pages/dishdetail/dishdetail';
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     AboutPage,
     MenuPage,
-    ContactPage
+    ContactPage,
+    DishdetailPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,8 @@ import { ProcessHttpmsgProvider } from '../providers/process-httpmsg/process-htt
     HomePage,
     AboutPage,
     MenuPage,
-    ContactPage
+    ContactPage,
+    DishdetailPage
   ],
   providers: [
     StatusBar,

@@ -22,7 +22,8 @@ export class DishdetailPage {
   numcomments: number;
   favourite: boolean;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams,
+  constructor(public navCtrl: NavController, 
+    public navParams: NavParams,
     @Inject('BaseURL') private BaseURL,
     private favouriteService: FavouriteProvider) {
     this.dish = navParams.get('dish');
@@ -35,7 +36,7 @@ export class DishdetailPage {
 
   addToFavourites() {
     console.log('Adding to Favourites', this.dish.id);
-    this.favourite = this.favouriteService.addFavourite(this.dish.id);
+    this.favourite = this.favouriteService.addFavorite(this.dish.id);
   }
 
   ionViewDidLoad() {

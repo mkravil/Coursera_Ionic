@@ -17,6 +17,7 @@ import { ProcessHttpmsgProvider } from '../providers/process-httpmsg/process-htt
 
 import { DishdetailPage } from '../pages/dishdetail/dishdetail';
 import { FavouriteProvider } from '../providers/favourite/favourite';
+import { FavoritesPage} from '../pages/favorites/favorites';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FavouriteProvider } from '../providers/favourite/favourite';
     AboutPage,
     MenuPage,
     ContactPage,
-    DishdetailPage
+    DishdetailPage,
+    FavoritesPage
   ],
   imports: [
     BrowserModule,
@@ -39,7 +41,8 @@ import { FavouriteProvider } from '../providers/favourite/favourite';
     AboutPage,
     MenuPage,
     ContactPage,
-    DishdetailPage
+    DishdetailPage,
+    FavoritesPage
   ],
   providers: [
     StatusBar,

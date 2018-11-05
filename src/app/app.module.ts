@@ -19,6 +19,7 @@ import { DishdetailPage } from '../pages/dishdetail/dishdetail';
 import { FavouriteProvider } from '../providers/favourite/favourite';
 import { FavoritesPage} from '../pages/favorites/favorites';
 import { ReservationPage} from '../pages/reservation/reservation';
+import { CommentPage} from '../pages/comment/comment';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { ReservationPage} from '../pages/reservation/reservation';
     ContactPage,
     DishdetailPage,
     FavoritesPage,
-    ReservationPage
+    ReservationPage,
+    CommentPage
   ],
   imports: [
     BrowserModule,
@@ -46,7 +48,8 @@ import { ReservationPage} from '../pages/reservation/reservation';
     ContactPage,
     DishdetailPage,
     FavoritesPage,
-    ReservationPage
+    ReservationPage,
+    CommentPage
   ],
   providers: [
     StatusBar,
